@@ -21,7 +21,38 @@
 /* BASE STYLES
 /*******************************************/
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  color: #F9FAF8;
+  font-size: 48px;  
+}
+
+header p, header li{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+header, footer {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #1F2937;
+  font: 36px;
+  font-weight: 800;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+h4 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
